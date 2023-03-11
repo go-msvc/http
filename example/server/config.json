@@ -1,0 +1,10 @@
+{
+    "ms":{
+        "server":{
+            "http":{
+                "port":12345,
+                "addr":"localhost"
+            }
+        }
+    }
+}

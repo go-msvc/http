@@ -9,13 +9,13 @@ import (
 	"strings"
 
 	"github.com/go-msvc/errors"
-	"github.com/go-msvc/utils/ms"
-	"github.com/stewelarend/logger"
+	"github.com/go-msvc/logger"
+	"github.com/go-msvc/ms"
 )
 
 var log = logger.New().WithLevel(logger.LevelDebug)
 
-//implements github.com/go-msvc/utils/ms.Server using an HTTP REST interface
+//implements github.com/go-msvc/ms.Server using an HTTP interface
 
 type Config struct {
 	Addr string

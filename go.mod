@@ -1,12 +1,9 @@
-module github.com/go-msvc/rest-utils
+module github.com/go-msvc/http
 
-go 1.18
-
-replace github.com/go-msvc/utils => ../utils
+go 1.19
 
 require (
-	github.com/go-msvc/errors v1.1.0
-	github.com/go-msvc/logger v0.0.0-20210121062433-1f3922644bec // indirect
-	github.com/go-msvc/utils v0.0.0-00010101000000-000000000000
+	github.com/go-msvc/errors v1.2.0
+	github.com/go-msvc/utils v0.0.0-20221018100505-45c6828a2cde
 	github.com/stewelarend/logger v0.0.4
 )
